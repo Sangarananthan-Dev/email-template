@@ -23,16 +23,16 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
 <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f8fafc; color: #1e293b;">
   
   <!-- Main Container -->
-  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:rgb(255, 255, 255); ">
+  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:rgb(255, 255, 255);">
     <tr>
       <td align="center">
         
         <!-- Email Container -->
-        <table cellpadding="0" cellspacing="0" border="0" width="520" style="max-width: 520px; background-color:rgb(251, 253, 255);  border: 1px solid #e2e8f0;">
+        <table cellpadding="0" cellspacing="0" border="0" width="520" style="max-width: 520px; background-color:rgb(251, 253, 255); border: 1px solid #e2e8f0;">
           
-          <!-- Header -->
+          <!-- Header with Background Image -->
           <tr>
-            <td align="center" style="background-color: #1a1a1a;  padding: 32px 40px 24px;">
+            <td align="center" style="background-image: url('https://pvuvzoyhqkgjfgxwtoyo.supabase.co/storage/v1/object/public/career-course/Category/midfin_background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 32px 40px 24px; position: relative;">
               <a href="https://midfin360.com" style="text-decoration: none;">
                 <img src="https://pvuvzoyhqkgjfgxwtoyo.supabase.co/storage/v1/object/public/career-course/Category/midfin360.png" 
                      alt="Midfin360" 
@@ -42,13 +42,15 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
               </a>
             </td>
           </tr>
-                <!-- Decorative Top -->
-                <tr>
-                  <td style="background-color: #f35320; height: 4px; line-height: 4px; font-size: 1px;">&nbsp;</td>
-                </tr>
-                <!-- Content -->
-                <tr>
-             <td style="padding: 20px; background-color: #ffffff;">
+          
+          <!-- Decorative Top -->
+          <tr>
+            <td style="background-color: #f35320; height: 4px; line-height: 4px; font-size: 1px;">&nbsp;</td>
+          </tr>
+          
+          <!-- Content -->
+          <tr>
+            <td style="padding: 20px; background-color: #ffffff;">
               
               <!-- Title -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -61,27 +63,24 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
                 </tr>
               </table>
 
-               <!-- Instructions -->
-             <table cellpadding="0" cellspacing="0" border="0" width="100%">
-               <tr>
-                 <td align="justify" style="padding-bottom: 24px;">
-                   <p style="margin: 0; font-family: Arial, sans-serif; font-size: 14px; color: #475569; line-height: 1.5; max-width: 500px;">
-                     <span >Thank you for choosing Midfin360</span>. To complete your email address verification, please use the OTP code provided above. This code will expire in <span >${expirationMinutes} minutes</span>, so please use it promptly.
-                   </p
-                 </td>
-               </tr>
+              <!-- Instructions -->
+              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td align="justify" style="padding-bottom: 24px;">
+                    <p style="margin: 0; font-family: Arial, sans-serif; font-size: 14px; color: #475569; line-height: 1.5; max-width: 500px;">
+                      <span>Thank you for choosing Midfin360</span>. To complete your email address verification, please use the OTP code provided above. This code will expire in <span>${expirationMinutes} minutes</span>, so please use it promptly.
+                    </p>
+                  </td>
+                </tr>
               </table>
-
               
-             
               <!-- OTP Section -->
-              <table  cellpadding="0" cellspacing="0" border="0" width="80%" align="center">
+              <table cellpadding="0" cellspacing="0" border="0" width="80%" align="center">
                 <tr>
                   <td align="center" style="padding-bottom: 20px;">
                     
                     <!-- OTP Container -->
-                    <table cellpadding="0" cellspacing="0" border="0" >
-                     
+                    <table cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td align="center" style="padding-bottom: 8px;">
                           <div style="background-color: #f35320; color: #ffffff; font-family: Arial, sans-serif; font-size: 32px; letter-spacing: 3px; padding: 10px 24px; border-radius: 8px; display: inline-block;">
@@ -89,24 +88,24 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
                           </div>
                         </td>
                       </tr>
-                    
                     </table>
                     
                   </td>
                 </tr>
               </table>
 
-  <!-- Instructions -->
+              <!-- Instructions -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td align="justify" style="padding-bottom: 24px;">
-                    <p style=" color: #64748b; margin: 0; font-family: Arial, sans-serif; font-size: 14px;   line-height: 1.5; max-width: 500px; ">
-For your security, do not share this code with anyone. including the Midfin360 team.</p>
-
+                    <p style="color: #64748b; margin: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; max-width: 500px;">
+                      For your security, do not share this code with anyone. including the Midfin360 team.
+                    </p>
                   </td>
                 </tr>
               </table>
-               <!-- Support Link -->
+              
+              <!-- Support Link -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td align="center" style="padding-bottom: 0px;">
@@ -116,14 +115,13 @@ For your security, do not share this code with anyone. including the Midfin360 t
                   </td>
                 </tr>
               </table>
-             
               
             </td>
           </tr>
           
           <!-- Footer -->
           <tr>
-            <td  align="center" style="background-color: #f8fafc; padding: 25px 40px; border-top: 1px solid #e2e8f0;">
+            <td align="center" style="background-color: #f8fafc; padding: 25px 40px; border-top: 1px solid #e2e8f0;">
               
               <!-- Social Links -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -160,8 +158,6 @@ For your security, do not share this code with anyone. including the Midfin360 t
                   </td>
                 </tr>
               </table>
-              
-             
               
               <!-- Footer Links -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
