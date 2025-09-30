@@ -66,8 +66,8 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
                <tr>
                  <td align="justify" style="padding-bottom: 24px;">
                    <p style="margin: 0; font-family: Arial, sans-serif; font-size: 14px; color: #475569; line-height: 1.5; max-width: 500px;">
-                     <span style="color: #000000; font-weight: bold;">Thank you for choosing Midfin360</span>. To complete your email address verification, please use the OTP code provided above. This code will expire in <span style="color: #000000; font-weight: bold;">${expirationMinutes} minutes</span>, so please use it promptly.
-                   </p>
+                     <span >Thank you for choosing Midfin360</span>. To complete your email address verification, please use the OTP code provided above. This code will expire in <span >${expirationMinutes} minutes</span>, so please use it promptly.
+                   </p
                  </td>
                </tr>
               </table>
@@ -84,7 +84,7 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
                      
                       <tr>
                         <td align="center" style="padding-bottom: 8px;">
-                          <div style="background-color: #f35320; color: #ffffff; font-family: Arial, sans-serif; font-size: 32px; font-weight: bold; letter-spacing: 3px; padding: 10px 24px; border-radius: 8px; display: inline-block;">
+                          <div style="background-color: #f35320; color: #ffffff; font-family: Arial, sans-serif; font-size: 32px; letter-spacing: 3px; padding: 10px 24px; border-radius: 8px; display: inline-block;">
                             ${verificationCode}
                           </div>
                         </td>
@@ -100,7 +100,7 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td align="justify" style="padding-bottom: 24px;">
-                    <p style="margin: 0; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; color:rgb(0, 0, 0); line-height: 1.5; max-width: 500px;">
+                    <p style=" color: #64748b; margin: 0; font-family: Arial, sans-serif; font-size: 14px;   line-height: 1.5; max-width: 500px; ">
 For your security, do not share this code with anyone. including the Midfin360 team.</p>
 
                   </td>
