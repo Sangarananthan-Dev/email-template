@@ -32,21 +32,13 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
           
           <!-- Header with Background Image -->
           <tr>
-            <td align="center" style="background-image: url('https://pvuvzoyhqkgjfgxwtoyo.supabase.co/storage/v1/object/public/career-course/Category/midfin_background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 32px 40px 24px; position: relative;">
-              <a href="https://midfin360.com" style="text-decoration: none;">
-                <img src="https://pvuvzoyhqkgjfgxwtoyo.supabase.co/storage/v1/object/public/career-course/Category/midfin360.png" 
-                     alt="Midfin360" 
-                     width="160" 
-                     height="auto" 
-                     style="display: block; border: 0; max-width: 160px;">
-              </a>
+            <td align="center" style="background-image: url('https://pvuvzoyhqkgjfgxwtoyo.supabase.co/storage/v1/object/public/career-course/Category/email-Header.png'); background-size: cover; background-position: center;height: 40px; background-repeat: no-repeat; padding: 32px 40px 24px; position: relative;">
+            
             </td>
           </tr>
           
           <!-- Decorative Top -->
-          <tr>
-            <td style="background-color: #f35320; height: 4px; line-height: 4px; font-size: 1px;">&nbsp;</td>
-          </tr>
+         
           
           <!-- Content -->
           <tr>
@@ -83,7 +75,7 @@ function generateVerificationEmail(verificationCode, expirationMinutes = 10) {
                     <table cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td align="center" style="padding-bottom: 8px;">
-                          <div style="background-color: #f35320; color: #ffffff; font-family: Arial, sans-serif; font-size: 32px; letter-spacing: 3px; padding: 10px 24px; border-radius: 8px; display: inline-block;">
+                          <div style="background-color: #F4F4F4; color: #282828ff; font-family: Arial, sans-serif; font-size: 32px; font-weight: 500; letter-spacing: 3px; padding: 10px 24px; border-radius: 8px; display: inline-block;">
                             ${verificationCode}
                           </div>
                         </td>
