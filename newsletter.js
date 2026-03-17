@@ -11,6 +11,7 @@ const ASSETS = {
   card2: `${IMAGE_BASE_URL}2.png`,
   card3: `${IMAGE_BASE_URL}3.png`,
   card4: `${IMAGE_BASE_URL}4.png`,
+  roadAhead: `${IMAGE_BASE_URL}5.png`,
   footerPhone: `${IMAGE_BASE_URL}footer.png`,
 };
 
@@ -45,8 +46,6 @@ function generateNewsletterEmail() {
       .hero-pad       { padding: 28px 16px 20px !important; }
       .headline       { font-size: 22px !important; line-height: 1.3 !important; }
       .card-img       { width: 100% !important; height: auto !important; border-radius: 12px !important; }
-      /* Road Ahead – keep phone image visible but slightly smaller */
-      .road-phone     { width: 130px !important; height: auto !important; }
     }
   </style>
 </head>
@@ -253,34 +252,12 @@ function generateNewsletterEmail() {
         <!-- ── ROAD AHEAD ── -->
         <tr>
           <td style="padding:28px 28px 0;">
-            <table cellpadding="0" cellspacing="0" border="0" width="100%"
-                   style="background-color:#E7E5F2;border-radius:14px;overflow:hidden;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
               <tr>
-                <!-- Text column -->
-                <td valign="top" style="padding:28px 20px 28px 28px;">
-                  <p style="margin:0 0 14px;font-family:Arial,sans-serif;font-size:20px;font-weight:700;color:#1C2277;line-height:1.3;">
-                    The Road Ahead
-                  </p>
-                  <p style="margin:0 0 12px;font-family:Arial,sans-serif;font-size:10px;color:#3d4a6b;line-height:1.7;">
-                    With strong user adoption, regulatory recognition, and new financial products
-                    launching, Midfin360 is entering an exciting phase of growth.
-                  </p>
-                  <p style="margin:0 0 12px;font-family:Arial,sans-serif;font-size:10px;color:#3d4a6b;line-height:1.7;">
-                    We remain committed to building a platform that combines innovation, trust,
-                    and investor-first thinking.
-                  </p>
-                  <p style="margin:0 0 16px;font-family:Arial,sans-serif;font-size:10px;color:#3d4a6b;line-height:1.7;">
-                    Thank you for being part of the Midfin360 journey.
-                  </p>
-                  <p style="margin:0;font-family:Arial,sans-serif;font-size:10px;font-weight:700;color:#1C2277;">
-                    Team Midfin360
-                  </p>
-                </td>
-                <!-- Phone image column – fixed width so it never collapses on mobile -->
-                <td valign="bottom" align="right" width="190" style="width:190px;padding:0;vertical-align:bottom;">
-                  <img class="road-phone" src="${ASSETS.footerPhone}" alt="Midfin360 App"
-                       width="190" height="auto"
-                       style="display:block;width:190px;height:auto;border-radius:0 0 14px 0;">
+                <td>
+                  <img class="card-img" src="${ASSETS.roadAhead}" alt="The Road Ahead"
+                       width="504" height="auto"
+                       style="display:block;width:100%;height:auto;border-radius:14px;">
                 </td>
               </tr>
             </table>
