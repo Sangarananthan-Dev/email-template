@@ -293,9 +293,9 @@ function generateNewsletterEmail() {
               <tr>
                 <td align="center">
                   <p style="margin:0;font-family:Arial,sans-serif;font-size:12px;color:#64748b;">
-                    <a href="https://midfin360.com/privacy" style="color:#64748b;text-decoration:none;">Privacy Policy</a>
+                    <a href="https://midfin360.com/privacy-policy.html" style="color:#64748b;text-decoration:none;">Privacy Policy</a>
                     &nbsp;|&nbsp;
-                    <a href="https://midfin360.com/terms" style="color:#64748b;text-decoration:none;">Terms of Service</a>
+                    <a href="https://midfin360.com/terms-conditions.html" style="color:#64748b;text-decoration:none;">Terms of Service</a>
                   </p>
                 </td>
               </tr>
