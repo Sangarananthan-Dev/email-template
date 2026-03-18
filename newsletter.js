@@ -31,7 +31,7 @@ function generateNewsletterEmail() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Midfin360 Newsletter – March 2026</title>
+  <title>midfin360 Newsletter – March 2026</title>
   <!--[if mso]>
   <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
   <![endif]-->
@@ -117,7 +117,7 @@ function generateNewsletterEmail() {
               </tr>
             </table>
             <p style="margin:16px 0 0;font-family:Arial,sans-serif;font-size:14px;color:#475569;line-height:1.65;">
-              We are thrilled to announce that Midfin360 has crossed <strong>100K app installs</strong>.
+              We are thrilled to announce that midfin360 has crossed <strong>100K app installs</strong>.
               This milestone reflects the growing trust investors place in our platform for discovering
               smarter financial opportunities. Every download represents a step toward making investments
               more accessible, transparent, and rewarding. Thank you to our community for being part of
@@ -144,7 +144,7 @@ function generateNewsletterEmail() {
               <tr>
                 <td>
                   <a href="${CARD_LINKS.card2}" target="_blank" style="text-decoration:none;">
-                    <img class="card-img" src="${ASSETS.card2}" alt="Midfin360 at Fintech Towers Chennai"
+                    <img class="card-img" src="${ASSETS.card2}" alt="midfin360 at Fintech Towers Chennai"
                          width="504" height="auto"
                          style="display:block;width:100%;height:auto;border-radius:12px;">
                   </a>
@@ -153,10 +153,10 @@ function generateNewsletterEmail() {
             </table>
             <p style="margin:16px 0 0;font-family:Arial,sans-serif;font-size:14px;color:#475569;line-height:1.65;">
               In a major recognition for our mission, the Government of Tamil Nadu has
-              <strong>allocated space for Midfin360</strong> at the Fintech Towers in Chennai.
+              <strong>allocated space for midfin360</strong> at the Fintech Towers in Chennai.
               This initiative aims to nurture innovative financial technology companies and strengthen
               Tamil Nadu's position as a leading fintech hub in India. Being part of this ecosystem
-              will allow Midfin360 to collaborate, innovate, and accelerate financial inclusion.
+              will allow midfin360 to collaborate, innovate, and accelerate financial inclusion.
             </p>
           </td>
         </tr>
@@ -187,7 +187,7 @@ function generateNewsletterEmail() {
               </tr>
             </table>
             <p style="margin:16px 0 0;font-family:Arial,sans-serif;font-size:14px;color:#475569;line-height:1.65;">
-              Midfin360 is proud to become <strong>India's first Specialised Investment Fund (SIF)
+              midfin360 is proud to become <strong>India's first Specialised Investment Fund (SIF)
               distributor</strong> approved by Securities and Exchange Board of India. This approval
               reinforces our commitment to regulatory compliance and investor protection while enabling
               us to bring sophisticated investment opportunities to our users.
@@ -213,7 +213,7 @@ function generateNewsletterEmail() {
               <tr>
                 <td>
                   <a href="${CARD_LINKS.card4}" target="_blank" style="text-decoration:none;">
-                    <img class="card-img" src="${ASSETS.card4}" alt="Fixed Deposits on Midfin360"
+                    <img class="card-img" src="${ASSETS.card4}" alt="Fixed Deposits on midfin360"
                          width="504" height="auto"
                          style="display:block;width:100%;height:auto;border-radius:12px;">
                   </a>
@@ -221,7 +221,7 @@ function generateNewsletterEmail() {
               </tr>
             </table>
             <p style="margin:16px 0 0;font-family:Arial,sans-serif;font-size:14px;color:#475569;line-height:1.65;">
-              We are excited to introduce Fixed Deposits on Midfin360, offering investors a secure
+              We are excited to introduce Fixed Deposits on midfin360, offering investors a secure
               way to grow their savings.<br><br>
               <strong>Key benefits:</strong>
             </p>
@@ -243,7 +243,7 @@ function generateNewsletterEmail() {
               </tr>
             </table>
             <p style="margin:12px 0 0;font-family:Arial,sans-serif;font-size:14px;color:#475569;line-height:1.65;">
-              This launch is part of our broader vision to make Midfin360 a one-stop investment
+              This launch is part of our broader vision to make midfin360 a one-stop investment
               platform for every Indian investor.
             </p>
           </td>
@@ -304,7 +304,7 @@ function generateNewsletterEmail() {
               <tr>
                 <td align="center">
                   <p style="margin:0;font-family:Arial,sans-serif;font-size:11px;color:#94a3b8;line-height:1.5;">
-                    &copy; 2026 Midfin360. All rights reserved.
+                    &copy; 2026 midfin360. All rights reserved.
                   </p>
                 </td>
               </tr>
