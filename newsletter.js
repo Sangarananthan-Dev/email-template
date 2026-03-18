@@ -3,7 +3,7 @@ import { Resend } from "resend";
 const resend = new Resend("re_DoKy812N_FdpZ35aSQypyu913EUg9uzM9");
 
 const IMAGE_BASE_URL =
-  "https://kdrcoacnxpdhsekzbmjn.supabase.co/storage/v1/object/public/midfin360/temp/";
+  "https://kdrcoacnxpdhsekzbmjn.supabase.co/storage/v1/object/public/midfin360/newsletter/";
 
 const ASSETS = {
   logo: `${IMAGE_BASE_URL}logo.png`,
